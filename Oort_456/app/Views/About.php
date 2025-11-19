@@ -10,15 +10,15 @@
 
       <!-- Navigasi untuk memilih link -->
       <div class="d-flex justify-content-center mb-3 flex-wrap gap-2">
-        <button class="btn btn-outline-primary" onclick="loadFrame('http://localhost:8080/cv_ummi')">CV Ummi</button>
-        <button class="btn btn-outline-secondary" onclick="loadFrame('http://localhost:8080/cv_najwa')">CV Najwa</button>
-        <button class="btn btn-outline-success" onclick="loadFrame('http://localhost:8080/about')">About</button>
-        <button class="btn btn-outline-dark" onclick="loadFrame('http://localhost:8080/service')">Service</button>
+        <button class="btn btn-outline-primary" onclick="loadFrame('http://oort678.my.id/cv_ummi')">CV Ummi</button>
+        <button class="btn btn-outline-secondary" onclick="loadFrame('http://oort678.my.id/cv_najwa')">CV Najwa</button>
+        <button class="btn btn-outline-success" onclick="loadFrame('http://oort678.my.id/about')">About</button>
+        <button class="btn btn-outline-dark" onclick="loadFrame('http://oort678.my.id/service')">Service</button>
       </div>
 
       <!-- Iframe tampilan konten -->
       <div class="iframe-container shadow-lg rounded overflow-hidden">
-        <iframe id="contentFrame" src="http://localhost:8080/cv_ummi" width="100%" height="700" frameborder="0"></iframe>
+        <iframe id="contentFrame" src="http://oort678.my.id/cv_ummi" width="100%" height="700" frameborder="0"></iframe>
       </div>
     </div>
   </section>
